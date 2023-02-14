@@ -1,0 +1,27 @@
+.dashboard {
+    background: linear-gradient(to right, #6DEBB4, #3BCAB3, #19A8A8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.glass {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background-color: rgba(99, 185, 197, 0.54);
+    overflow: auto;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    grid-template-columns: 11rem auto 20rem;
+    gap: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .glass {
+        grid-template-columns: 10% 50% auto;
+        overflow-y: scroll;
+    }
+}

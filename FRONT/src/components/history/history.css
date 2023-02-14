@@ -1,0 +1,23 @@
+.hidden {
+    display: none;
+}
+
+
+.visible {
+    background: none;
+}
+.shhhh {
+    font-family: 'Inter', sans-serif;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 2rem;
+    border: solid #8eb4fc;
+    border-radius: 0.5rem;
+
+    padding: 20px;
+}

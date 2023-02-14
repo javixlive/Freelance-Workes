@@ -1,0 +1,67 @@
+.navbar  {
+  background: linear-gradient(-45deg, #b052ee, #cb3ce7, #6fb4ce, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#csdcs {
+  font-family: 'Libre Baskerville', serif;
+  font-size:small;
+}
+
+.navbar-brand {
+  margin-left: -10px;
+}
+
+.cart {
+	display: flex;
+	position: relative;
+}
+.cart1 {
+	position: absolute;
+}
+
+.cart button {
+	color: black;
+	background-color: transparent;
+	font-size: 12px;
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	letter-spacing: 1px;
+	border: hidden;
+}
+
+#cart_menu_num {
+	position: absolute;
+	top: 0;
+	left: 55%;
+	background: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 1px;
+}
+
+

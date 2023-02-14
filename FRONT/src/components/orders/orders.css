@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+}
+
+.visible {
+    background: none;
+}
+
+.rateSettings h1 {
+    font-family: 'Inter', sans-serif;
+}
